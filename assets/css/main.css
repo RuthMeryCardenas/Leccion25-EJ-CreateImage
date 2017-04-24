@@ -12,19 +12,20 @@ input {
 
 .text-center {
   background-color: #EEA197;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
 #contenedor {
   margin: 30px auto;
+  width: 960px;
 }
 
 .contenedor-imagen {
   display: inline-block;
-  height: 425px;
+  height: 300px;
   margin: 0 10px 20px 10px;
-  width: 425px;
+  width: 300px;
 
 }
 
