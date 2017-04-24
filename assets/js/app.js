@@ -1,11 +1,11 @@
 function creandoDiv(getURL) {
-  var contenedor = document.getElementById('contenedor');
+  var contenedor = document.getElementById("contenedor");
   var div = document.createElement("div");
   var img = document.createElement("img");
   img.setAttribute("src", getURL);
   div.classList.add("contenedor-imagen");
-  div.appenChild(img);
-  contenedor.appenChild(div);
+  div.appendChild(img);
+  contenedor.appendChild(div);
 }
 
 var inputURL = document.getElementById('url');
@@ -16,3 +16,4 @@ function getURL(e) {
   }
 }
 inputURL.onkeydown = getURL;
+console.log("hola");

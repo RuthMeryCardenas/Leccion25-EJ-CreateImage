@@ -1,0 +1,27 @@
+input {
+  border-radius: 2px;
+  -webkit-appearance : none;
+  border: 1px solid #ccc;
+  padding: 7px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#contenedor {
+  margin-top: 30px;
+}
+
+.contenedor-imagen {
+  display: inline-block;
+  height: 425px;
+  margin: 0 10px 20px 10px;
+  width: 425px;
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
